@@ -1,0 +1,9 @@
+{
+    "height": 15,
+    "width": 100,
+
+    "speed": 100,
+
+    "randomObstacles": false,
+    "randomObstacleChance": 5
+}
