@@ -222,7 +222,7 @@ setInterval(() => {
         spawnRandomObstacle()
     } 
     
-    pathFind(Player);
+        if(cfg.pathFind == true) pathFind(Player);
 }, cfg.speed);
 
 stdin.on('data', key => {
