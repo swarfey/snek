@@ -1,9 +1,12 @@
-{
-    "height": 15,
-    "width": 100,
+module.exports = {
+    "height": "auto",
+    "width": "auto",
 
     "speed": 100,
 
     "randomObstacles": false,
-    "randomObstacleChance": 5
+
+    "randomObstacleChance": 20,
+
+    "pathFind" : false
 }
