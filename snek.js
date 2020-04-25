@@ -1,4 +1,4 @@
-const cfg = require(`./cfg.js`)
+const cfg = require(`./cfg.json`) 
 if(!cfg) {
     cfg = {
         height: "auto",
@@ -70,7 +70,6 @@ function init() {
     rows.push(row);
     rownum++;
     };
-    console.log(rows)
     while(true) {
         let randomx = parseInt(`${Math.floor(Math.random() * width)}`);
         let randomy = parseInt(`${Math.floor(Math.random() * height)}`);
